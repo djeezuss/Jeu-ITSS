@@ -1,6 +1,6 @@
 package net.ddns.djeezuss;
 
-public class Main {
+public class Implementation {
     public static void main(String[] args) {
 
     }

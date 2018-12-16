@@ -3,7 +3,7 @@ package net.ddns.djeezuss.enums;
 public enum CardTypeEnum {
     INFECTION("infection"),
     VACCINE("vaccine"),
-    ANTICONDOM("anticondom"),
+    ANTICONDOM("anti-condom"),
     CONDOM("condom"),
     SWINGER("swinger"),
     AGAR("agar");

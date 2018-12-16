@@ -1,17 +1,35 @@
 package net.ddns.djeezuss.enums;
 
 public enum InfectionTypeEnum {
-    ;
-
-
-    private String name;
-
-    InfectionTypeEnum(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return name + " card";
-    }
+    GIARDIASE_INTESTINALIS,
+    TRICHOMONAS_VAGINALIS,
+    GALE,
+    MORPION,
+    CANDIDA_ALBICANS,
+    CANDIDA_ALBICANS_MUTATED,
+    HEPATITIS_A,
+    HEPATITIS_B,
+    HEPATITIS_C,
+    HUMAN_PAPILLOMAVIRUS,
+    HIV,
+    MONONUCLEOSIS,
+    MOLLOSUM_CONTAGIOSUM,
+    HERPES,
+    LYMPHOGRANULOMA_VENEREUM,
+    CALYMMATOBACTERIUM_GRANULOMATIS,
+    NEISSERIA_MENINGITIDIS,
+    NEISSERIA_GONORRHOEAE,
+    NEISSERIA_GONORRHOEAE_MUTATED,
+    NEISSERIA_GONORRHOEAE_H041,
+    VAGINOSIS,
+    DYSENTERY,
+    MYCOPLASMA_GENITALIUM,
+    LEPROSY,
+    SYPHILIS_I,
+    SYPHILIS_II,
+    SYPHILIS_III,
+    HAEMOPHILUS_DUCREYI,
+    UREAPLASMA_UREALYTICUM,
+    MYCOPLASMA_HOMINIS,
+    CHLAMYDIA_TRACHOMATIS;
 }
